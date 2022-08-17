@@ -1,0 +1,43 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,121,9,0.10717790534182425) 35%, rgba(0,212,255,1) 100%);
+}
+
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: sans-serif;
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+} 
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.About-Me {
+    display: flex;
+}
+
+.Contact-Me {
+    display: flex;
+}
