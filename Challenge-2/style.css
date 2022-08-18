@@ -41,3 +41,19 @@ a{
 .Contact-Me {
     display: flex;
 }
+
+.work{
+    display: flex;
+}
+
+.applications{
+    display: flex;
+}
+
+.placeholder-box{
+    padding: 15px;
+}
+
+h4{
+    text-align: center;
+}
