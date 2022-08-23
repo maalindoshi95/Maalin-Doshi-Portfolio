@@ -24,6 +24,7 @@ main{
     height: 250px;
     width: 300px;
     border-radius: 100%;
+    margin-top: 20px;
 }
 
 h1{
@@ -36,7 +37,7 @@ nav{
     justify-content: center;
 } 
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     margin-top: 25px;
@@ -59,19 +60,19 @@ a{
 
 }
 
-.About-Me {
-    display: flex;
-}
-
 .About-Me h2{
-    width: 15%;
+    width: 20%;
+    white-space: nowrap;
+
 }
 
 .About-Me div p{
     margin-left: 8%;
+    font-size: 25px;
 }
 
-.Contact-Me {
+/* helps put the sections and information side by side */
+section {
     display: flex;
 }
 
@@ -87,10 +88,6 @@ a{
 
 .Contact-Me ul li a{
     font-size: 25px;
-}
-
-.work{
-    display: flex;
 }
 
 .applications{
@@ -132,6 +129,61 @@ h4{
     nav ul {
         padding-left: 0;
         margin-top: 17px;
+        justify-content: flex-end;
+    }
+    .profile-picture{
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    main{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    section{
+        display: block;
+    }
+
+    .Contact-Me ul li a{
+        font-size: 18px;
+    }
+
+    .About-Me h2, .work h2, .Contact-Me h2, #resume {
+        text-align: center;
+        width: 100%;
+    }
+
+    .About-Me div p{
+        margin-left: 0%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .Contact-Me ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .Contact-Me ul{
+        padding: 0px;
+    }
+
+    .placeholder-box img{
+        width: 75%
+    }
+
+    .applications .placeholder-box img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 } 
