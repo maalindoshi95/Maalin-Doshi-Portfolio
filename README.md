@@ -6,3 +6,4 @@ This is a personal portfolio website that contains a picture of me, a personal d
 ## Screenshots
 
 ## Link
+https://maalindoshi95.github.io/Maalin-Doshi-Portfolio/
