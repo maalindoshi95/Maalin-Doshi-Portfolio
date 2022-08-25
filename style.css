@@ -1,5 +1,5 @@
 
-
+/* helps set the unique background color */
 body{
     background: linear-gradient(90deg, rgb(16, 0, 36), rgb(32, 2, 3));
     color: white;
@@ -7,6 +7,7 @@ body{
     margin: 0%;
 }
 
+/* sets up the blue header with the nav bar spaced out */
 header{
     background-color: lightblue;
     display: flex;
@@ -20,6 +21,7 @@ main{
     margin-right: 20%;
 }
 
+/* makes the picture of me circular and a specific size */
 .profile-picture{
     height: 250px;
     width: 300px;
@@ -49,6 +51,7 @@ li{
     margin-right: 10px;
 }
 
+/* changes the font size of the nav anchor elements */
 nav ul li a{
     font-size: 24px;
 }
@@ -76,6 +79,7 @@ section {
     display: flex;
 }
 
+/* centers the contact me list */
 .Contact-Me ul{
     margin-left: auto;
     margin-right: auto;
